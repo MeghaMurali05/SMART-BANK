@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounts - Smart Bank</title>
+<link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="bank.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+    <a class="navbar-brand" href="index.html"><i class="bi bi-bank me-2"></i>SMART BANK</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+
+         <span class="navbar-toggler-icon"></span>
+
+      </button>
+        <div class="collapse navbar-collapse"id="menu">
+            <ul class="navbar-nav ms-auto">
+
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="bi bi-house me-2"></i>Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="accounts.html"><i class="bi bi-person-circle me-2"></i>Accounts</a>
+                </li>
+
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="cards.html"><i class="bi bi-credit-card-2-front me-2"></i>Cards</a>
+                </li>
+
+                 <li class="nav-item">
+                    <a class="nav-link" href="investment.html"><i class="bi bi-bar-chart-line me-2"></i>Investments</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="loans.html"><i class="bi bi-cash-stack me-2"></i>Loans</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="payments.html"><i class="bi bi-wallet2 me-2"></i>Payments</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="reports.html"><i class="bi bi-bar-chart me-2"></i>Reports</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html"><i class="bi bi-person-check me-2"></i>Profile</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- Account Section -->
+
+<div class="container my-5">
+
+    <h2 class="text-center mb-4">Account Details</h2>
+    <p class="text-center text-muted">View and manage all your bank accounts</p>
+
+    <!-- Customer Carousel -->
+
+<div class="mt-5">
+
+    <h3 class="text-center mb-4">Customer Information</h3>
+
+    <div id="customerCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <!-- Customer 1 -->
+            <div class="carousel-item active">
+                <div class="card p-4 text-center">
+                    <h4 class="text-warning">John Daniel</h4>
+                    <p><strong>Customer ID:</strong> CUS001</p>
+                    <p><strong>Account No:</strong> 1234567890</p>
+                    <p><strong>Account Type:</strong> Savings</p>
+                    <p><strong>Balance:</strong> ₹50,000</p>
+                    <p><strong>IFSC:</strong> SBIN0001234</p>
+                    <p><strong>Branch:</strong> Kochi</p>
+                </div>
+            </div>
+
+            <!-- Customer 2 -->
+            <div class="carousel-item">
+                <div class="card p-4 text-center">
+                    <h4 class="text-warning">Alice George</h4>
+                    <p><strong>Customer ID:</strong> CUS002</p>
+                    <p><strong>Account No:</strong> 2345678912</p>
+                    <p><strong>Account Type:</strong> Current</p>
+                    <p><strong>Balance:</strong> ₹85,420</p>
+                    <p><strong>IFSC:</strong> SBIN0001234</p>
+                    <p><strong>Branch:</strong>Thrissur</p>
+                </div>
+            </div>
+
+            <!-- Customer 3 -->
+            <div class="carousel-item">
+                <div class="card p-4 text-center">
+                    <h4 class="text-warning">Rahul Kumar</h4>
+                    <p><strong>Customer ID:</strong> CUS003</p>
+                    <p><strong>Account No:</strong> 3456789123</p>
+                    <p><strong>Account Type:</strong> Savings</p>
+                    <p><strong>Balance:</strong> ₹1,20,500</p>
+                    <p><strong>IFSC:</strong> SBIN0001234</p>
+                    <p><strong>Branch:</strong> Trivandrum</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Previous -->
+        <button class="carousel-control-prev" type="button"
+                data-bs-target="#customerCarousel"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle"></span>
+        </button>
+
+        <!-- Next -->
+        <button class="carousel-control-next" type="button"
+                data-bs-target="#customerCarousel"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle"></span>
+        </button>
+
+    </div>
+
+</div>
+
+<!-- Back Button -->
+
+
+     <div class="text-center mt-4"> 
+        <a href="index.html" class="btn btn-primary"> Back to Home </a> 
+    </div>
+ </div>
+<!-- Footer -->
+
+<footer class="bg-dark text-white text-center p-3 mt-5">
+    <div class="container">
+        <p class="mb-1">© 2026 Smart Bank. All Rights Reserved.</p>
+        <p class="mb-0">Email: support@smartbank.com | Phone: +91 98765 43210</p>
+    </div>
+</footer>
+<script src="./js/bootstrap.js"></script>
+
+</body>
+</html>

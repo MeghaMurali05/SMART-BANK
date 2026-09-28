@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#F4FFF8;
+}
+
+/* .navbar{
+    background:#2E8B57;
+}
+
+.navbar-brand,.nav-link{
+    color:white;
+}
+
+.nav-link:hover{
+    color:#FFD700;
+}
+
+.navbar {
+    background-color:black;
+    padding: 15px 40px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffc107;
+}
+
+.navbar a.active {
+    color: #ffc107;
+}
+
+.welcome{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.welcome h2{
+    color: #2E8B57;
+    font-size: 10px;
+}
+
+.welcome p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.bank-image{
+    width:100%;
+    border-radius:20px;
+}
+
+.card{
+    border:none;
+    border-radius:10px;
+    box-shadow:0 2px 8px lightgray;
+}
+.btn-primary{
+    background:#3CB371;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#5dbad4;
+}
+
+.carousel .card{
+    width:70%;
+    margin:auto;
+    border-radius:15px;
+    background-color:whitesmoke
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.carousel-item{
+    padding:20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    padding:20px;
+}
+
+
+
+/* Transactions */
+
+.card{
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+
+
+.card h5{
+    color: #198754;
+    font-weight: bold;
+}
+
+.card p{
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.container h2{
+    color: #198754;
+}
+
+.btn-success{
+    border-radius: 8px;
+  
+}
+.navbar {
+    background-color:black;
+    padding: 15px 40px;
+}
+
+
+footer{
+    background:#2E8B57;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+} */
